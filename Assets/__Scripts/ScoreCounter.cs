@@ -26,6 +26,7 @@ public class ScoreCounter : MonoBehaviour
     public void IncreaseScore()
     {
         score += 100;
+        HighScore.TRY_SET_HIGH_SCORE(score);
     }
 }
 

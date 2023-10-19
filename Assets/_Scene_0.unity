@@ -386,7 +386,7 @@ MonoBehaviour:
     damageOnHit: 5
     continuousDamage: 0
     delayBetweenShots: 0.2
-    velocity: 50
+    velocity: 70
   - type: 2
     letter: S
     color: {r: 0, g: 0.65676546, b: 1, a: 1}

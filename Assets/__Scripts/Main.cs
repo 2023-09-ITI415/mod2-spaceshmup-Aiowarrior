@@ -39,6 +39,7 @@ public class Main : MonoBehaviour {
             // Set it to the position of the destroyed ship
             pu.transform.position = e.transform.position;
         }
+        FindObjectOfType<ScoreCounter>().IncreaseScore();
     }
 
     private void Awake()
